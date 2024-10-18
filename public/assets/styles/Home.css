@@ -1,0 +1,873 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.carpointtxt {
+    font-family: "Caprasimo", serif;
+    font-family: "Calistoga", serif !important;
+}
+.ptop-10{
+    padding-top: 200px !important;
+}
+.price{
+    background-color: rgb(2, 199, 2)!important;
+   
+}
+.green1{
+    color: rgb(2, 199, 2)!important;
+   
+}
+.carpointtxt2 {
+
+    font-family: "Salsa", cursive;
+    font-family: "Calistoga", serif !important;
+    letter-spacing: 1px;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.mt-10 {
+    margin-top: 100px !important;
+}
+
+.pt-10 {
+    padding-top: 130px !important;
+}
+
+.liteblue {
+    background-color: rgb(220, 255, 254);
+
+}
+
+.litecol2 {
+    background-color: rgb(236, 247, 246)
+}
+
+.litecol3 {
+    background-color: rgb(157, 245, 240);
+
+}
+
+:root {
+    --sha: 0 0 15px rgba(0, 0, 0, 0.3) !important;
+    --bg: antiquewhite;
+    --bg2: rgb(255, 0, 106);
+    --bg3: rgb(255, 0, 76);
+    --bg4: rgb(255, 115, 0);
+}
+
+.green {
+    background-color: limegreen !important;
+}
+
+.btnhoverb:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btnhoverp:hover {
+    background-color: rgb(251, 0, 46) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.c1 {
+    color: rgb(255, 0, 76);
+}
+
+.bg4 {
+    background-color: var(--bg4);
+
+}
+
+.bg-black {
+    background-color: black;
+
+}
+
+.bg3 {
+    background-color: var(--bg3);
+
+
+}
+
+.bg2 {
+    background-color: var(--bg2);
+
+
+}
+
+.bg {
+    background-color: var(--bg);
+}
+
+.shadow1 {
+    box-shadow: var(--sha);
+}
+
+.homefonttsha {
+    text-shadow: 0 0 10px black;
+
+}
+.homefont {
+    text-shadow: 0 0 10px black;
+color:black;
+}
+@media screen and (min-width:800px) and (max-width:5000px) {
+    .homefont {
+        font-size: 50px !important;
+        text-shadow: 0 0 10px black;
+color:black;
+    }
+
+}
+
+
+.homebg {
+    background-image: linear-gradient(rgba(178, 253, 253, 0.1), rgba(178, 253, 253, 0.1)),
+        url("/assets/main1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:700px) {
+    .homebg {
+        background-image: linear-gradient(rgba(178, 253, 253, 0.1), rgba(178, 253, 253, 0.1)),
+            url("/assets/mobhome.jpg");
+          
+    }
+    
+}
+
+.navli a {
+    border-radius: 5px;
+}
+
+.navli a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+}
+
+.navz {
+    z-index: 9999;
+
+}
+
+.homecontent {
+    min-height: 87vh;
+}
+
+
+
+.branch1 {
+    width: 300px !important;
+    box-shadow: var(--sha);
+}
+
+
+.bran {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.bran .icon {
+    font-size: 30px;
+    background-color: rgb(234, 234, 234);
+    width: 60px;
+
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bran .left {
+    width: 30%;
+}
+
+.bran .right {
+    width: 70%;
+}
+
+/* ---------------------car run img---------- */
+.carrunall {
+    width: 80%;
+
+}
+
+
+
+.carrunimg {
+    animation-name: carroll;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carroll {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+.carrunimg div {
+    width: 200px;
+    height: 150px;
+    border: 8px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3)inset;
+    border-radius: 2px;
+
+}
+
+.carrunimg div img {
+    width: 184px;
+    height: 134px;
+    object-fit: cover;
+}
+
+.smallcar {
+    width: 140px !important;
+}
+
+@media screen and (max-width:600px) {
+    .carrunall {
+        width: 100%;
+    }
+
+    @keyframes carroll {
+        0% {
+            transform: translate(0%);
+        }
+
+        100% {
+            transform: translate(-220%);
+        }
+    }
+}
+
+/* ------------------new car style-------- */
+.car1 {
+    width: 350px !important;
+
+}
+
+.pro-2{
+    width: 84% !important;
+    margin-left: 8%!important;
+}
+
+.hover {
+    transition: 1s;
+
+}
+
+.car1:hover .hover {
+    transform: translateX(50px) !important;
+}
+
+.heartp {
+    position: relative;
+}
+
+.heartc {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: rgb(255, 9, 70);
+    font-size: 23px;
+}
+
+.runcar {
+    width: 100px;
+}
+
+/* -----------------------sroll animation-------------- */
+.slani {
+    animation: srcoll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+@keyframes srcoll {
+    from {
+
+        transform: scale(0.8);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+/* ---------------popular car-------------- */
+.Popularcar {
+    margin-top: 80px;
+}
+
+.car1 {
+    box-shadow: var(--sha);
+}
+
+/* -----------------services------------ */
+.sha {
+    box-shadow: var(--sha);
+}
+
+.radi img {
+    border-radius: 10px !important;
+}
+
+
+/* .mango-f{
+    width: 80% !important;
+    margin-bottom: 10px!important;
+} */
+.water-f{
+    width: 95% !important;
+}
+@media screen and (min-width:900px) and (max-width:3000px) {
+    .serviceimg {
+        width: 70% !important;
+    }
+
+}
+
+
+@media screen and (max-width:770px) {
+    .disnone1 {
+        display: none;
+    }
+}
+
+
+/* -------------client testimonial------------ */
+.test1 {
+    width: 300px;
+}
+
+.testimonial {
+    background-color: rgb(185, 214, 221) !important;
+}
+
+
+.footer {
+    background-image: url("/assets/Untitled design (10).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* ------------about-------------- */
+
+
+
+.abouttext {
+    padding-top: 120px !important;
+
+}
+
+
+
+
+
+/* ----------------------location-------------- */
+@media screen and (max-width:575px) {
+    .locleft {
+        width: 100% !important;
+    }
+}
+
+
+/* -------------------service-------------- */
+
+@media screen and (max-width:767px) {
+
+    .serleft {
+        width: 100% !important;
+    }
+
+    .serleftbox2 {
+        width: 30% !important;
+    }
+
+    .serleftbox1 {
+        width: 70% !important;
+    }
+
+    .mobmargin {
+        margin-top: 30px !important;
+    }
+}
+
+/* -----------login-------- */
+.blur {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px !important;
+}
+
+.carjump {
+    animation-name: jump;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translatey(0px);
+
+    }
+
+    30% {
+        transform: rotate(5deg);
+
+    }
+
+    50% {
+
+        transform: scale(1.2);
+
+    }
+
+    80% {
+        transform: translatey(0px);
+        transform: rotate(-5deg);
+    }
+}
+
+.carjump2 {
+    animation-name: jump2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump2 {
+    0% {
+        transform: translatey(0px);
+
+    }
+
+    50% {
+        transform: translatey(10px);
+
+
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.loginbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("/assets/home_image.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.radius10 {
+    border-radius: 10px !important;
+}
+
+
+
+/* ------------mobile view------------ */
+@media screen and (max-width:460px) {
+    .branch1 {
+        width: 98% !important;
+    }
+
+    .newcarbox1 .car1 {
+        width: 98% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+:root {
+    --sdhalite: 0 0 10px rgba(0, 0, 0, 0.3);
+    --insha: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3)inset;
+    --deepp: rgb(255, 0, 55);
+    --font15: 15px;
+    --font16: 16px;
+    --font17: 20px;
+}
+.top-spc{
+    padding-top: 80px !important;
+}
+.font{
+    font-family: "Salsa", Sans-serif;
+    font-weight: 600;
+  
+}
+.bgpink{
+    background-color: rgb(255, 42, 156);
+    border-radius: 7px 7px 0 0;
+
+}
+
+/* ----------order styles------------------- */
+
+.orderoveralll {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /* box-shadow: var(--sdhalite); */
+    border-radius: 10px;
+}
+
+.orderoveralll h2 {
+    text-align: center;
+
+}
+
+.orderoverall {
+    padding: 0 15px;
+}
+
+.orderoverall h5 {
+    color: rgb(114, 112, 112);
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.orderoverall h3 {
+    font-size: var(--font17);
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(31, 31, 31);
+
+}
+
+.orderbox1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.orderbox1 .dish {
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    min-height: 300px;
+    box-shadow: var(--sdhalite);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(345deg, rgb(207, 255, 205) 65%, white 35%);
+
+
+}
+
+.orderbox1 .dish::before {
+    content: "50% Offer";
+    background: linear-gradient(to right, rgb(255, 0, 55), rgb(255, 83, 120));
+    padding: 5px 50px;
+    color: white;
+    position: absolute;
+    transform: rotate(310deg);
+    left: -55px;
+    top: 25px;
+}
+
+.orderbox1 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border:5px solid white; */
+    align-self: center;
+    animation-name: orderfood;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation-iteration-count: infinite;
+    /* background-color: rgb(255, 255, 255); */
+    border: 2px solid white;
+
+}
+
+
+@keyframes orderfood {
+    0% {}
+
+    50% {
+        transform: scale(1.1);
+
+    }
+
+    100% {}
+}
+
+
+.orderbox1 p {
+    font-size: var(--font15);
+    margin: 10px 0;
+    line-height: 25px;
+    color: rgb(83, 83, 83);
+}
+
+.placeorder a {
+    text-decoration: none;
+    color: white;
+    font-size: var(--font15);
+    letter-spacing: 0.5px;
+}
+
+.price {
+    background-color: rgb(255, 126, 147);
+    padding: 2px 8px;
+    font-size: 17px;
+    color: black;
+    /* border-radius: 5px 5px 10px 2px; */
+    border-radius: 5px;
+    font-weight: bold;
+    animation-name: price;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: 0.30s;
+}
+
+@keyframes price {
+    10% {
+        background-color: rgb(13, 110, 0);
+    }
+
+    50% {
+        background-color: orange;
+    }
+}
+
+.placeorder {
+    width: 130px;
+    height: 40px;
+    padding: 5px 10px;
+    /* background-color:var(--deepp); */
+    background: linear-gradient(to right, rgb(255, 0, 55), rgb(255, 56, 82));
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: placeorder;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: 0.30s;
+    cursor: pointer;
+}
+
+/* @keyframes placeorder {
+    10% {
+        transform: scaleX(1);
+        background-color: rgb(255, 12, 64);
+    }
+
+    50% {
+        transform: scaleX(1.1);
+        background-color: orange;
+    }
+} */
+
+.placeorder:hover{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+.veg h2,
+.nonveg h2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ------------------------- */
+.plcart{
+    display: flex;
+    
+      justify-content: center;
+      width:100%;
+    gap:15px;
+    
+}
+.cart{
+    width: 150px;
+    height: 40px;
+    padding: 5px 10px;
+    /* background-color:var(--deepp); */
+    background: linear-gradient(to right, rgb(48, 170, 0), rgb(38, 165, 0));
+
+    border-radius: 5px;
+  
+    justify-content: center;
+    align-items: center;
+display: flex;
+align-items: center;
+
+    cursor: pointer;
+}
+.carc{
+    font-size:19px;
+    color: white!important;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.cart:hover{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+
+}
+.carttopicon{
+    color:rgb(255, 12, 64);
+    font-size:17px;
+    margin-top:10px;
+    margin-right: 15px;
+}
+
+.carttopicon:hover{
+    color: black;
+}
+
+/* --------------------- */
+.cart-block{
+    /* background-color: red; */
+    position: relative;
+    padding:5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.cart-count{
+    width:18px;
+    height:18px;
+    position: absolute;
+    top:5px;
+    right:15px;
+    background-color: black;
+    color: rgb(230, 230, 230);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* -----------my cart------ */
+.mycart{
+    position: fixed;
+    z-index: 99;
+    width:400px;
+    height:100vh;
+    top:0;
+    right:-100%;
+    background-color: rgb(231, 231, 231);
+    transition: 1s;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 99999;
+}
+
+@media screen and (max-width:400px) {
+    .mycart{
+       
+        width:300px;
+    
+    }
+    
+}
+
+.mycart-open{
+    top:0;
+    right:0;
+    position: fixed;
+
+
+}
+.cart-img{
+    width:100%;
+    background-color: white;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.item1{
+    display: grid;
+    grid-template-columns: 30% 45% 20%;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+.cart-qty{
+    width:40px;
+    outline: none;
+    padding-left: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(192, 191, 191);
+}
+
+.close{
+    position: absolute;
+    top:10px;
+    right:13px;
+}
+.close i{
+    color: red!important;
+font-size: 25px;
+cursor: pointer;
+}
+.remove{
+    cursor: pointer;
+}
